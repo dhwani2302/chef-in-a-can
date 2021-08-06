@@ -1,0 +1,347 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href=""https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<nav class="navbar">
+  <a href="#"><img src="food.png" alt=""></a>
+  <div class="navlinks">
+      <ul>
+        <li> <a href="itisha.html">Home</a></li>
+        <li><a href="alaika.html">About</a></li>
+        <li> <a href="Ashwini.html">Menu</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="aarushi.html">Contact</a></li>
+      </ul>
+  </div>
+  
+</nav>
+</head>
+<body>
+
+<h1 style="color: black: auto; font-family: 'Trebuchet MS'"; >PAYMENT  </h1>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+      
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="name">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="abc@example.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="address">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="city">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="state">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="code">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="name">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="card number">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="month">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="year">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="cvv">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="same address"> Delievery address same as billing
+        </label>
+      
+        
+       
+       <center><a href="thanku.html" myButton class="btn" >Place Order </button></a></center>
+       
+      </form>
+    </div>
+  </div>
+
+<style>
+body {
+    font-family: Arial;
+    font-size: 17px;
+    padding: 8px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeVry3ptUQiLPu7V7Cgx7Y84IRXvM-bXnOdA&usqp=CAU.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 10px;
+    
+  }
+  
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin: 0 10px;
+    ;
+  }
+  
+  .col-15 {
+    -ms-flex: 5%; 
+    flex: 10%;
+  }
+  
+  .col-50 {
+    -ms-flex: 10%; 
+    flex: 10%;
+  }
+  
+  .col-75 {
+    -ms-flex: 15%; 
+    flex: 5%;
+  }
+  
+  .col-15,
+  .col-50,
+  .col-75 {
+    padding: 5 5px;
+  }
+  
+  .container {
+    background-color: #9e98988c;
+    padding: 10px 30px 30px 300px;
+    border: 1px solid rgb(51, 50, 50);
+    border-radius: 5px;
+    opacity: 1;
+    
+  }
+  
+  input[type=text] {
+    width: 50%;
+    margin-bottom: 8px;
+    padding: 10px;
+    border: 1px solid rgb(56, 55, 55);
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: rgb(49, 48, 48);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  a {
+    color: #2196F3;
+  }
+  
+  hr {
+    border: 1px solid rgb(51, 50, 50);
+  }
+  
+  span.price {
+    float: inline-start;
+    color: rgb(44, 44, 44);
+  }
+  
+  /* Responsive layout */
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+    .button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+  }</style>
+  <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Baloo 2", cursive;
+      }
+      .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+
+.content h1 {
+  padding: 10px 24px;
+  font-size: 70px;
+  color: white;
+  background-color: rgba(216, 206, 206, 0.3);
+  border-radius: 20px;
+}
+
+@keyframes change {
+  0% {
+    background-image: url("food1.jpg");
+  }
+
+  20% {
+    background-image: url("food2.jpg");
+  }
+
+  40% {
+    background-image: url("food3.jpg");
+  }
+
+  60% {
+    background-image: url("food1.jpg");
+  }
+
+  80% {
+    background-image: url("food2.jpg");
+  }
+
+  100% {
+    background-image: url("food3.jpg");
+  }
+}
+
+nav {
+  display: flex;
+  padding: 0% 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+}
+
+nav img {
+  width: 200px;
+  filter: brightness(0) invert(1);
+}
+
+.navlinks {
+  flex: 1;
+  text-align: right;
+}
+
+.navlinks ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px 12px;
+  position: relative;
+}
+
+.navlinks ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.navlinks ul li a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+  border-radius: 10px;
+  padding: 0px 10px;
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .content h1 {
+    font-size: 20px;
+  }
+
+  .navlinks ul li {
+    display: block;
+  }
+
+  .navlinks {
+    position: absolute;
+    background: #f44336;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+  }
+}
+
+      </style>
+
+  
+
+</body>
+</html>
+

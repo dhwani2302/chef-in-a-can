@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- custom css file link  -->
+    <link rel="stylesheet" href="style2.css">
+</head>
+<nav class="navbar">
+    <a href="#"><img src="food.png" alt=""></a>
+    <div class="navlinks">
+        <ul>
+          <li> <a href="itisha.html">Home</a></li>
+          <li><a href="alaika.html">About</a></li>
+          <li> <a href="Ashwini.html">Menu</a></li>
+          <li><a href="booking.html">Booking</a></li>
+          <li><a href="aarushi.html">Contact</a></li>
+        </ul>
+    </div>
+    
+  </nav>
+<body>
+<!-- speciality section starts  -->
+
+<section class="speciality" id="speciality">
+
+    <h1 class="heading"> OUR <span>SPECIALITY</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img class="image" src="s-img-1.jpg" alt="">
+            <div class="content">
+                <img src="s-1.png" alt="">
+                <h3>Yummy burger</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="s-img-2.jpg" alt="">
+            <div class="content">
+                <img src="s-2.png" alt="">
+                <h3>Cheezy pizza</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="s-img-3.jpg" alt="">
+            <div class="content">
+                <img src="s-3.png" alt="">
+                <h3>cold ice-cream</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="s-img-4.jpg" alt="">
+            <div class="content">
+                <img src="s-4.png" alt="">
+                <h3> Relaxing cold drinks</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="s-img-5.jpg" alt="">
+            <div class="content">
+                <img src="s-5.png" alt="">
+                <h3>Fresh sweets</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img class="image" src="s-img-6.jpg" alt="">
+            <div class="content">
+                <img src="s-6.png" alt="">
+                <h3>healty breakfast</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda inventore neque amet ipsa tenetur voluptates aperiam tempore libero labore aut.</p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- speciality section ends -->
+<style>
+
+
+
+
+
+
+nav {
+  display: flex;
+  padding: 0% 5%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: sticky;
+  top: 0;
+}
+
+
+
+.navlinks {
+  flex: 1;
+  text-align: right;
+}
+
+.navlinks ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px 12px;
+  position: relative;
+}
+
+.navlinks ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.navlinks ul li a:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+  border-radius: 10px;
+  padding: 0px 10px;
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .content h1 {
+    font-size: 20px;
+  }
+
+  .navlinks ul li {
+    display: block;
+  }
+
+  .navlinks {
+    position: absolute;
+    background: #f44336;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+  }
+}
+
+      
+
+
+      </style>
+</body>
+</html>

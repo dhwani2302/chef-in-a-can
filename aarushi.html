@@ -1,0 +1,206 @@
+ <html>
+     <head>
+         <meta charset="UTF-8">
+         <title> Contact us page </title>
+         <link rel="stylesheet" href="fileforcss.css"/>
+         <style>
+            @import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+            </style>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <nav class="navbar">
+                <a href="#"><img src="food.png" alt=""></a>
+                <div class="navlinks">
+                    <ul>
+                      <li> <a href="itisha.html">Home</a></li>
+                      <li><a href="alaika.html">About</a></li>
+                      <li> <a href="Ashwini.html">Menu</a></li>
+                      <li><a href="booking.html">Booking</a></li>
+                      <li><a href="aarushi.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+     </head>
+     <body>
+         <div class="container">
+             <h1>Let's Connect</h1>
+             <p>We would love to respond to your queries and help you suceed.
+                 Feel free to get in touch with us. </p>
+                 <div class="contact-box">
+                     <div class="contact-left">
+                         <h3>Sent your request</h3>
+                         <form>
+                             <div class="input-row">
+                                 <div class="input-group">
+                                     <label>Name</label>
+                                     <input type="text" placeholder="aaa" required>
+                                 </div>
+                                 
+                                 <div class="input-group">
+                                     <label>Phone</label>
+                                     <input type="text" placeholder="+91 123 451 2345" required>
+                                 </div>  
+                                 <div class="input-group">
+                                     <label>Email</label>
+                                     <input type="email" placeholder="aaa@gmail.com">
+                                  </div>
+                             </div>
+                             <label>Message</label>
+                             <textarea rows="5" placeholder="Your Message" required></textarea>
+
+                             <button type="submit">Send</button>
+                         </form>
+                     </div>
+                     <div class="contact-right">
+                         <h3>Reach Us</h3>
+                         <table>
+                             <tr>
+                                 <td>Email</td>
+                                 <td>contactus@gmail.com</td>
+                             </tr>
+                             <tr>
+                                 <td>Phone</td>
+                                 <td>+91 123 456 7890</td>
+                             </tr>
+                             <tr>
+                                 <td>Address</td>
+                                 <td>56 Dukaan,Indore </td>
+                             </tr>
+                             <tr>
+                                 <td>Timing</td>
+                                 <td>Mon-Fri: 8:00-19:00<br> Sat-Sun: 8:00-21:00 </td>
+                                
+                              </tr>
+                             <tr>
+                                 <td>Follow Us</td>
+                                 <td><a href="https://www.instagram.com/" class="fa fa-instagram" > </a>
+                                     <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                                     <a href="https://twitter.com/" class="fa fa-twitter" > </a>
+                                 </td>     
+                             </tr>
+                         </table>   
+                        </div>
+                     </div>
+                 </div>
+         </div>
+         <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: "Baloo 2", cursive;
+              }
+              .content {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          text-transform: uppercase;
+        }
+        
+        .content h1 {
+          padding: 10px 24px;
+          font-size: 70px;
+          color: white;
+          background-color: rgba(216, 206, 206, 0.3);
+          border-radius: 20px;
+        }
+        
+        @keyframes change {
+          0% {
+            background-image: url("food1.jpg");
+          }
+        
+          20% {
+            background-image: url("food2.jpg");
+          }
+        
+          40% {
+            background-image: url("food3.jpg");
+          }
+        
+          60% {
+            background-image: url("food1.jpg");
+          }
+        
+          80% {
+            background-image: url("food2.jpg");
+          }
+        
+          100% {
+            background-image: url("food3.jpg");
+          }
+        }
+        
+        nav {
+          display: flex;
+          padding: 0% 5%;
+          justify-content: space-between;
+          align-items: center;
+        }
+        
+        .navbar {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: rgba(0, 0, 0, 0.5);
+          position: sticky;
+          top: 0;
+        }
+        
+        nav img {
+          width: 200px;
+          filter: brightness(0) invert(1);
+        }
+        
+        .navlinks {
+          flex: 1;
+          text-align: right;
+        }
+        
+        .navlinks ul li {
+          list-style: none;
+          display: inline-block;
+          padding: 5px 12px;
+          position: relative;
+        }
+        
+        .navlinks ul li a {
+          text-decoration: none;
+          color: white;
+          font-size: 20px;
+        }
+        
+        .navlinks ul li a:hover {
+          background-color: white;
+          color: black;
+          box-shadow: 0 0 10px white;
+          border-radius: 10px;
+          padding: 0px 10px;
+          text-decoration: underline;
+        }
+        
+        @media (max-width: 700px) {
+          .content h1 {
+            font-size: 20px;
+          }
+        
+          .navlinks ul li {
+            display: block;
+          }
+        
+          .navlinks {
+            position: absolute;
+            background: #f44336;
+            height: 100vh;
+            width: 200px;
+            top: 0;
+            right: 0;
+            text-align: left;
+            z-index: 2;
+          }
+        }
+        
+              </style>
+            
+     </body>
+ </html>
